@@ -11,4 +11,9 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_login_label">Login with Email</string>
+    <string name="btn_reg_label">Register for free</string>
+    <string name="login_heading">Login to Account</string>
+    <string name="btn_login_label_2">Continue</string>
+    <string name="btn_forgot_label">forgot password ?</string>
 </resources>
