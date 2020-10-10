@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "19864104849",
+    "firebase_url": "https://mptcloud-a7b5d.firebaseio.com",
+    "project_id": "mptcloud-a7b5d",
+    "storage_bucket": "mptcloud-a7b5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19864104849:android:d49bf351258070b115f430",
+        "android_client_info": {
+          "package_name": "digipodium.authenticationdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19864104849-hnpjghf5rl6iprmv2jiliff3vr0j30tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHaJ1LQqg9ny3s2JyoFSdIXf1YmUu5TDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19864104849-hnpjghf5rl6iprmv2jiliff3vr0j30tc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

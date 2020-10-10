@@ -34,7 +34,7 @@ public class LoginFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         binding = FragmentLoginBinding.bind(view);
 
-        binding.btnCreateAcc.setOnClickListener(v1 ->{
+        binding.btnCreateAcc .setOnClickListener(v1 ->{
             NavHostFragment.findNavController(this).navigate(R.id.action_loginFragment_to_registerFragment);
         });
 

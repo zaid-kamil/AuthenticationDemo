@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+       <KeyFrameSet>
+       </KeyFrameSet>
+        <OnClick motion:targetId="@id/logincontainer" />
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            motion:layout_constraintEnd_toStartOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="24dp"
+            android:id="@+id/textView" />
+        <Constraint motion:layout_editor_absoluteX="16dp" />
+        <Constraint
+            motion:layout_editor_absoluteY="667dp"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            motion:layout_constraintEnd_toStartOf="parent"
+            android:id="@+id/btnCreateAcc"
+            motion:layout_constraintBottom_toBottomOf="parent" />
+        <Constraint
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            motion:layout_constraintTop_toBottomOf="@+id/tilPassword"
+            android:id="@+id/btnLogin2"
+            motion:layout_constraintStart_toEndOf="parent" />
+        <Constraint
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            motion:layout_constraintTop_toBottomOf="@+id/tilPassword"
+            android:id="@+id/btnForgot"
+            motion:layout_constraintEnd_toStartOf="parent" />
+        <Constraint
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            motion:layout_constraintTop_toBottomOf="@+id/textView"
+            motion:layout_constraintStart_toEndOf="parent"
+            android:id="@+id/tilEmail"
+            motion:layout_constraintEnd_toStartOf="@+id/tilPassword"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:layout_height="wrap_content"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:id="@+id/btnCreateAcc"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp" />
+    </ConstraintSet>
+</MotionScene>
